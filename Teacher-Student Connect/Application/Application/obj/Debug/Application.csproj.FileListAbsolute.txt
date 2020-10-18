@@ -1,0 +1,313 @@
+C:\Users\tarun\Desktop\Application\Application\bin\Application.dll.config
+C:\Users\tarun\Desktop\Application\Application\bin\Application.dll
+C:\Users\tarun\Desktop\Application\Application\bin\Application.pdb
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\csc.exe
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\csc.exe.config
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\csc.rsp
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\csi.exe
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\csi.exe.config
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\csi.rsp
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.AppContext.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Console.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.IO.Compression.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Net.Http.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Net.Sockets.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.ValueTuple.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Xml.XPath.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\vbc.exe
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\vbc.exe.config
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\vbc.rsp
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\VBCSCompiler.exe
+C:\Users\tarun\Desktop\Application\Application\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tarun\Desktop\Application\Application\bin\Antlr3.Runtime.dll
+C:\Users\tarun\Desktop\Application\Application\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tarun\Desktop\Application\Application\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tarun\Desktop\Application\Application\bin\Newtonsoft.Json.dll
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.Helpers.dll
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.Mvc.dll
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.Optimization.dll
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.Razor.dll
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.WebPages.dll
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.WebPages.Razor.dll
+C:\Users\tarun\Desktop\Application\Application\bin\WebGrease.dll
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.Helpers.xml
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.Mvc.xml
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.Optimization.xml
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.Razor.xml
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.WebPages.xml
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tarun\Desktop\Application\Application\bin\System.Web.WebPages.Razor.xml
+C:\Users\tarun\Desktop\Application\Application\bin\Newtonsoft.Json.xml
+C:\Users\tarun\Desktop\Application\Application\bin\Antlr3.Runtime.pdb
+C:\Users\tarun\Desktop\Application\Application\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tarun\Desktop\Application\Application\obj\Debug\Application.csprojAssemblyReference.cache
+C:\Users\tarun\Desktop\Application\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
+C:\Users\tarun\Desktop\Application\Application\obj\Debug\Application.csproj.CopyComplete
+C:\Users\tarun\Desktop\Application\Application\obj\Debug\Application.dll
+C:\Users\tarun\Desktop\Application\Application\obj\Debug\Application.pdb
+C:\Users\tarun\Desktop\Application\Application\bin\EntityFramework.dll
+C:\Users\tarun\Desktop\Application\Application\bin\EntityFramework.SqlServer.dll
+C:\Users\tarun\Desktop\Application\Application\bin\EntityFramework.xml
+C:\Users\tarun\Desktop\Application\Application\bin\EntityFramework.SqlServer.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Application.dll.config
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Application.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Application.pdb
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\csc.exe
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\csc.exe.config
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\csc.rsp
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\csi.exe
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\csi.exe.config
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\csi.rsp
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.Managed.Core.targets
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.AppContext.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Collections.Immutable.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Console.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Globalization.Calendars.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.IO.Compression.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.IO.FileSystem.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Net.Http.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Net.Sockets.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Reflection.Metadata.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.ValueTuple.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Xml.XmlDocument.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Xml.XPath.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\vbc.exe
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\vbc.exe.config
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\vbc.rsp
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\VBCSCompiler.exe
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\roslyn\VBCSCompiler.exe.config
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Antlr3.Runtime.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\EntityFramework.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\EntityFramework.SqlServer.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Microsoft.Web.Infrastructure.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Newtonsoft.Json.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.Helpers.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.Mvc.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.Optimization.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.Razor.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.Deployment.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.Razor.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\WebGrease.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\EntityFramework.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\EntityFramework.SqlServer.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.Helpers.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.Mvc.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.Optimization.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.Razor.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.Deployment.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.Razor.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Newtonsoft.Json.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Antlr3.Runtime.pdb
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\obj\Debug\Application.csprojAssemblyReference.cache
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\obj\Debug\Application.csproj.CopyComplete
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\obj\Debug\Application.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\obj\Debug\Application.pdb
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\grpc_csharp_ext.x86.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\grpc_csharp_ext.x64.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\libgrpc_csharp_ext.x86.so
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\libgrpc_csharp_ext.x64.so
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\libgrpc_csharp_ext.x86.dylib
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\libgrpc_csharp_ext.x64.dylib
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.Api.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Microsoft.Extensions.Primitives.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Buffers.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.IO.Pipelines.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Memory.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Numerics.Vectors.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Text.Encodings.Web.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Threading.Tasks.Extensions.dll
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.pdb
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.Api.pdb
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.Api.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\Microsoft.Extensions.Primitives.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Buffers.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.IO.Pipelines.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Memory.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Numerics.Vectors.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Text.Encodings.Web.xml
+D:\COGNIZANT\6. Teacher-Student Connect\Application\Application\bin\System.Threading.Tasks.Extensions.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\grpc_csharp_ext.x86.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\grpc_csharp_ext.x64.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\libgrpc_csharp_ext.x86.so
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\libgrpc_csharp_ext.x64.so
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\libgrpc_csharp_ext.x86.dylib
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\libgrpc_csharp_ext.x64.dylib
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Application.dll.config
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Application.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Application.pdb
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\csc.exe
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\csc.exe.config
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\csc.rsp
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\csi.exe
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\csi.exe.config
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\csi.rsp
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.Managed.Core.targets
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.AppContext.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Collections.Immutable.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Console.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Globalization.Calendars.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.IO.Compression.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.IO.FileSystem.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Net.Http.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Net.Sockets.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Reflection.Metadata.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.ValueTuple.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Xml.XmlDocument.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Xml.XPath.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\vbc.exe
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\vbc.exe.config
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\vbc.rsp
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\VBCSCompiler.exe
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\roslyn\VBCSCompiler.exe.config
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Antlr3.Runtime.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\EntityFramework.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\EntityFramework.SqlServer.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.Api.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Microsoft.Extensions.Primitives.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Microsoft.Web.Infrastructure.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Newtonsoft.Json.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Buffers.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.IO.Pipelines.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Memory.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Numerics.Vectors.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Text.Encodings.Web.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Threading.Tasks.Extensions.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.Helpers.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.Mvc.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.Optimization.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.Razor.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.Deployment.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.Razor.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\WebGrease.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\EntityFramework.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\EntityFramework.SqlServer.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.pdb
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.Api.pdb
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Grpc.Core.Api.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Microsoft.Extensions.Primitives.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Newtonsoft.Json.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Buffers.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.IO.Pipelines.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Memory.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Numerics.Vectors.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Text.Encodings.Web.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Threading.Tasks.Extensions.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.Helpers.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.Mvc.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.Optimization.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.Razor.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.Deployment.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\System.Web.WebPages.Razor.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Antlr3.Runtime.pdb
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\obj\Debug\Application.csprojAssemblyReference.cache
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\obj\Debug\Application.csproj.CopyComplete
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\obj\Debug\Application.dll
+D:\COGNIZANT\COGNIZANT_Internship\6. Teacher-Student Connect\Application\Application\obj\Debug\Application.pdb

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TeacherStudentConnectModel1StoreContainer" CdmEntityContainer="TeacherStudentConnectEntities2">
+    <EntitySetMapping Name="tbl_resource">
+      <EntityTypeMapping TypeName="TeacherStudentConnectModel1.tbl_resource">
+        <MappingFragment StoreEntitySet="tbl_resource">
+          <ScalarProperty Name="re_id" ColumnName="re_id" />
+          <ScalarProperty Name="images" ColumnName="images" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="subjects" ColumnName="subjects" />
+          <ScalarProperty Name="years" ColumnName="years" />
+          <ScalarProperty Name="descriptions" ColumnName="descriptions" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
