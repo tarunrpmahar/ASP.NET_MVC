@@ -2,7 +2,13 @@
     ViewData["Title"] = "Home Page";
 }
 
+@*<link href="~/css/StyleSheet.css" rel="stylesheet" />*@
+
 <div class="text-center">
     <h1 class="display-4">Welcome to book store web application</h1>
+    <h1>@DateTime.Now.ToString("dd-MM-yyy")</h1>
+
+    <img src="~/images/photo-min.jpg" class="logo" alt="profile_pic" />
+
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
