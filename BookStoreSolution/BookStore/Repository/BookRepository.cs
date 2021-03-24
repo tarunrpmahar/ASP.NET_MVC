@@ -28,11 +28,11 @@ namespace BookStore.Repository
         {
             return new List<BookModel>()
             {
-                new BookModel(){ Id=1, Title= "MVC", Author= "Tarun"},
-                new BookModel(){ Id=2, Title= "Django", Author= "Singh"},
-                new BookModel(){ Id=3, Title= "Machine Learning", Author= "Mahar"},
-                new BookModel(){ Id=4, Title= "C-sharp", Author= "TSM"},
-                new BookModel(){ Id=5, Title= "Dotnet", Author= "tarunrpmahar"},
+                new BookModel(){ Id=1, Title= "MVC", Author= "Tarun", Description="This is description of the MVC entered by Tarun.", Category="Arch", Language="English", TotalPages=200},
+                new BookModel(){ Id=2, Title= "Django", Author= "Singh", Description="This is description of the Django entered by Singh.", Category="Framework", Language="English", TotalPages=500},
+                new BookModel(){ Id=3, Title= "Machine Learning", Author= "Mahar", Description="This is description of the Machine Learning entered by Mahar.", Category="Course", Language="English", TotalPages=1000},
+                new BookModel(){ Id=4, Title= "C-sharp", Author= "TSM", Description="This is description of the C# entered by TSM.", Category="Programming", Language="English", TotalPages=600},
+                new BookModel(){ Id=5, Title= "Dotnet", Author= "tarunrpmahar", Description="This is description of the Dotnet entered by tarunrpmahar.", Category="Framework", Language="English", TotalPages=700},
             };
         }
     }

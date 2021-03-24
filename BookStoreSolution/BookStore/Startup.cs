@@ -30,6 +30,11 @@ namespace BookStore
             services.AddControllersWithViews();
             //Data Source=MSI\\SQLEXPRESS;Initial Catalog=BookStore;Trusted_Connection=True;
             services.AddDbContext<BookStoreContext>(options => options.UseSqlServer("Server=MSI\\SQLEXPRESS;Database=Bookstore;Integrated Security=True;"));
+
+            //will only work for development mode
+#if DEBUG         
+            services.AddRazorPages().AddRazorRuntimeCompilation();
+#endif
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
