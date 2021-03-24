@@ -505,3 +505,4 @@ C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\D
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\BookStore.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Book\GetBook.cshtml.g.cs
+C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Book\AddNewBook.cshtml.g.cs

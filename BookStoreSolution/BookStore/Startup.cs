@@ -1,4 +1,5 @@
 using BookStore.data;
+using BookStore.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,6 +36,8 @@ namespace BookStore
 #if DEBUG         
             services.AddRazorPages().AddRazorRuntimeCompilation();
 #endif
+            //code for dependency
+            services.AddScoped<BookRepository, BookRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
