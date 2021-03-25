@@ -2,6 +2,7 @@
     ViewData["Title"] = "New Book";
 }
 
+@using BookStore.Enums
 @model BookModel
 
 <div class="container">
@@ -20,15 +21,25 @@
     <form method="post" asp-action="AddNewBook" asp-controller="Book">
         <div asp-validation-summary="All" class="text-danger"></div>
 
+        <!--<div class="form-group">
+            <label asp-for="LanguageEnum"></label>
+            <select asp-for="LanguageEnum" class="form-control" asp-items="Html.GetEnumSelectList<LanguageEnums>()" >
+                <option value="">Please choose Book Language</option>-->
+                @*hardcoded opotion tag using html
+                    <option value="">Please choose Book Language</option>
+                        <option value="Hindi">Hindi (Recommended)</option>
+                        <option value="English">English (Gloabl Language)</option>
+                        <option value="Punjabi">Punjabi (Optional)</option>*@
+            <!--</select>
+            <span asp-validation-for="LanguageEnum" class="text-danger"></span>
+        </div>-->
+
         <div class="form-group">
-            <label asp-for="Language"></label>
-            <select asp-for="Language" class="form-control" required>
+            <label asp-for="LanguageId"></label>
+            <select asp-for="LanguageId" class="form-control" asp-items="ViewBag.Language" required>
                 <option value="">Please choose Book Language</option>
-                <option value="Hindi">Hindi (Recommended)</option>
-                <option value="English">English (Gloabl Language)</option>
-                <option value="Punjabi">Punjabi (Optional)</option>
             </select>
-            <span asp-validation-for="Language" class="text-danger"></span>
+            <span asp-validation-for="LanguageId" class="text-danger"></span>
         </div>
 
         <div class="form-group">

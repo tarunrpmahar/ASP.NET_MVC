@@ -24,7 +24,7 @@ namespace BookStore.Repository
                 CreatedOn = DateTime.UtcNow,
                 Description = model.Description,
                 Title = model.Title,
-                Language=model.Language,
+                LanguageId=model.LanguageId,
                 TotalPages = model.TotalPages.HasValue?model.TotalPages.Value:0,
                 UpdatedOn = DateTime.UtcNow
             };
@@ -35,66 +35,84 @@ namespace BookStore.Repository
         }
         public async Task<List<BookModel>> GetAllBooks()
         {
-            var books = new List<BookModel>();
-            var allbooks = await _context.tbl_Books.ToListAsync();
-            if(allbooks?.Any()==true)
-            {
-                foreach(var book in allbooks)
-                {
-                    books.Add(new BookModel()
-                    {
-                        Author=book.Author,
-                        Category=book.Category,
-                        Description=book.Description,
-                        Id=book.Id,
-                        Language=book.Language,
-                        Title=book.Title,
-                        TotalPages=book.TotalPages
-                       
-                    });
-                }
-            }
-            return books;
+            return await _context.tbl_Books
+                  .Select(book => new BookModel()
+                  {
+                      Author = book.Author,
+                      Category = book.Category,
+                      Description = book.Description,
+                      Id = book.Id,
+                      LanguageId = book.LanguageId,
+                      Language = book.Language.Text,
+                      Title = book.Title,
+                      TotalPages = book.TotalPages
+                  }).ToListAsync();
+            //var books = new List<BookModel>();
+            //var allbooks = await _context.tbl_Books.ToListAsync();
+            //if(allbooks?.Any()==true)
+            //{
+            //    foreach(var book in allbooks)
+            //    {
+            //        books.Add(new BookModel()
+            //        {
+            //            Author = book.Author,
+            //            Category = book.Category,
+            //            Description = book.Description,
+            //            Id = book.Id,
+            //            LanguageId = book.LanguageId,
+            //            Language = book.Language.Text,
+            //            Title = book.Title,
+            //            TotalPages = book.TotalPages
+            //        }) ;
+            //    }
+            //}
+            //return books;
         }
 
         public async Task<BookModel> GetBookById(int id)
         {
-            var book = await _context.tbl_Books.FindAsync(id);
-
-            if(book!=null)
-            {
-                var bookDetails = new BookModel()
+            return await _context.tbl_Books.Where(x => x.Id == id)
+                .Select(book => new BookModel()
                 {
                     Author = book.Author,
                     Category = book.Category,
                     Description = book.Description,
                     Id = book.Id,
-                    Language = book.Language,
+                    LanguageId = book.LanguageId,
+                    Language=book.Language.Text,
                     Title = book.Title,
                     TotalPages = book.TotalPages
-                };
-                return bookDetails;
-            }
+                }).FirstOrDefaultAsync();
+
+            //if(book!=null)
+            //{
+            //    var bookDetails = new BookModel()
+            //    {
+                    
+            //    };
+            //    return bookDetails;
+            //}
             //_context.tbl_Books.Where(x => x.Id == id).FirstOrDefaultAsync();
-            return null;
+            //return null;
         }
 
         public List<BookModel> SearchBook(string title, string authorName)
         {
-            return DataSource().Where(x => x.Title.Contains(title) || x.Author.Contains(authorName)).ToList();
+            return null;
+            //return DataSource().Where(x => x.Title.Contains(title) || x.Author.Contains(authorName)).ToList();
             //return DataSource().Where(x => x.Title == title && x.Author == authorName).ToList();    matches exact word
         }
 
-        private List<BookModel> DataSource()
-        {
-            return new List<BookModel>()
-            {
-                new BookModel(){ Id=1, Title= "MVC", Author= "Tarun", Description="This is description of the MVC entered by Tarun.", Category="Arch", Language="English", TotalPages=200},
-                new BookModel(){ Id=2, Title= "Django", Author= "Singh", Description="This is description of the Django entered by Singh.", Category="Framework", Language="English", TotalPages=500},
-                new BookModel(){ Id=3, Title= "Machine Learning", Author= "Mahar", Description="This is description of the Machine Learning entered by Mahar.", Category="Course", Language="English", TotalPages=1000},
-                new BookModel(){ Id=4, Title= "C-sharp", Author= "TSM", Description="This is description of the C# entered by TSM.", Category="Programming", Language="English", TotalPages=600},
-                new BookModel(){ Id=5, Title= "Dotnet", Author= "tarunrpmahar", Description="This is description of the Dotnet entered by tarunrpmahar.", Category="Framework", Language="English", TotalPages=700},
-            };
-        }
+        //private List<BookModel> DataSource()
+        //{
+        //    return new List<BookModel>()
+        //    {
+        //        new BookModel(){ Id=1, Title= "MVC", Author= "Tarun", Description="This is description of the MVC entered by Tarun.", Category="Arch", Language="English", TotalPages=200},
+        //        new BookModel(){ Id=2, Title= "Django", Author= "Singh", Description="This is description of the Django entered by Singh.", Category="Framework", Language="English", TotalPages=500},
+        //        new BookModel(){ Id=3, Title= "Machine Learning", Author= "Mahar", Description="This is description of the Machine Learning entered by Mahar.", Category="Course", Language="English", TotalPages=1000},
+        //        new BookModel(){ Id=4, Title= "C-sharp", Author= "TSM", Description="This is description of the C# entered by TSM.", Category="Programming", Language="English", TotalPages=600},
+        //        new BookModel(){ Id=5, Title= "Dotnet", Author= "tarunrpmahar", Description="This is description of the Dotnet entered by tarunrpmahar.", Category="Framework", Language="English", TotalPages=700},
+        //    };
+        //}
     }
 }
