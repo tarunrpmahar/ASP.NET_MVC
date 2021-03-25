@@ -11,17 +11,18 @@
     </environment>
 
     <environment exclude="Development">
-        <link rel="stylesheet" 
+        <link rel="stylesheet"
               href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only"
               asp-fallback-test-property="position"
               asp-fallback-test-value="absolute"
               integrity=""
-              crossorigin="anonymous"/>
+              crossorigin="anonymous" />
 
     </environment>
-    <link rel="stylesheet" href="~/css/site.css" />
+
+
 </head>
 <body>
     <header>
@@ -40,17 +41,18 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="book" asp-action="getallbooks">All Books</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-protocol="https" asp-host="google.com">Google</a>
-                        </li>
+                        @*<li class="nav-item">
+                                <a class="nav-link text-dark" asp-protocol="https" asp-host="google.com">Google</a>
+                            </li>*@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="book" asp-action="addnewbook">Add Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +63,7 @@
     <div class="navigation-bread">
         @RenderSection("breadcrumb", required: false)
     </div>
-   
+
 
     <div class="container">
         <main role="main" class="pb-3">
