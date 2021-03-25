@@ -24,7 +24,7 @@ namespace BookStore.Repository
                 CreatedOn = DateTime.UtcNow,
                 Description = model.Description,
                 Title = model.Title,
-                TotalPages = model.TotalPages,
+                TotalPages = model.TotalPages.HasValue?model.TotalPages.Value:0,
                 UpdatedOn = DateTime.UtcNow
             };
             await _context.tbl_Books.AddAsync(newBook);
