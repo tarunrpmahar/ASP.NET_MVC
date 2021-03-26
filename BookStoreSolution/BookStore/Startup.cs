@@ -35,6 +35,12 @@ namespace BookStore
             //will only work for development mode
 #if DEBUG         
             services.AddRazorPages().AddRazorRuntimeCompilation();
+            
+            //uncomment this code to disable client side validation
+            //.AddViewOptions(option =>
+            //{
+            //    option.HtmlHelperOptions.ClientValidationEnabled = false;
+            //});
 #endif
             //code for dependency
             services.AddScoped<BookRepository, BookRepository>();

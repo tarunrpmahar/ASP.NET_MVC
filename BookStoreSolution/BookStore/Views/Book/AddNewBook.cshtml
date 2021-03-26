@@ -18,19 +18,19 @@
         </div>
     }
 
-    <form method="post" asp-action="AddNewBook" asp-controller="Book">
+    <form method="post" enctype="multipart/form-data" asp-action="AddNewBook" asp-controller="Book">
         <div asp-validation-summary="All" class="text-danger"></div>
 
         <!--<div class="form-group">
             <label asp-for="LanguageEnum"></label>
             <select asp-for="LanguageEnum" class="form-control" asp-items="Html.GetEnumSelectList<LanguageEnums>()" >
                 <option value="">Please choose Book Language</option>-->
-                @*hardcoded opotion tag using html
-                    <option value="">Please choose Book Language</option>
-                        <option value="Hindi">Hindi (Recommended)</option>
-                        <option value="English">English (Gloabl Language)</option>
-                        <option value="Punjabi">Punjabi (Optional)</option>*@
-            <!--</select>
+        @*hardcoded opotion tag using html
+            <option value="">Please choose Book Language</option>
+                <option value="Hindi">Hindi (Recommended)</option>
+                <option value="English">English (Gloabl Language)</option>
+                <option value="Punjabi">Punjabi (Optional)</option>*@
+        <!--</select>
             <span asp-validation-for="LanguageEnum" class="text-danger"></span>
         </div>-->
 
@@ -57,13 +57,40 @@
         <div class="form-group">
             <label asp-for="Description"></label>
             <textarea asp-for="Description" class="form-control" rows="4"></textarea>
-            <span asp-validation-for="Description"></span>
+            <span asp-validation-for="Description" class="text-danger"></span>
         </div>
 
         <div class="form-group">
             <label asp-for="TotalPages"></label>
             <input asp-for="TotalPages" class="form-control" />
             <span asp-validation-for="TotalPages" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CoverPhoto"></label>
+            <div class="custom-file">
+                <input asp-for="CoverPhoto" class="custom-file-input" id="customFile">
+                <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+            <span asp-validation-for="CoverPhoto" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="GalleryFiles"></label>
+            <div class="custom-file">
+                <input asp-for="GalleryFiles" class="custom-file-input" id="customFile">
+                <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+            <span asp-validation-for="GalleryFiles" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BookPdf"></label>
+            <div class="custom-file">
+                <input asp-for="BookPdf" class="custom-file-input" id="customFile">
+                <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+            <span asp-validation-for="BookPdf" class="text-danger"></span>
         </div>
 
         <div class="form-group">

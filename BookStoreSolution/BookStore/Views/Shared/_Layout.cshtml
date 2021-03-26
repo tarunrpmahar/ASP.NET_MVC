@@ -25,45 +25,12 @@
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/images/books.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                    BookStore
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="book" asp-action="getallbooks">All Books</a>
-                        </li>
-                        @*<li class="nav-item">
-                                <a class="nav-link text-dark" asp-protocol="https" asp-host="google.com">Google</a>
-                            </li>*@
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="book" asp-action="addnewbook">Add Book</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    
+    <partial name="_Header" />
 
     <div class="navigation-bread">
         @RenderSection("breadcrumb", required: false)
     </div>
-
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -71,26 +38,27 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted opp">
-        <div class="container text-center">
-            &copy; @DateTime.Now.Year - BookStore - <a asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
-            @*<a href="mailto:tarunsmahar@gmail.com">tarunsmahar@gmail.com</a>*@
-            
-            @*CUSTOM TAG HELPER FOR EMAIL*@
-            <custom-email my-email="tarunsmahar@gmail.com"></custom-email>
-            
-        </div>
-    </footer>
+    <partial name="_footer" />
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+        <script src="~/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js"></script>
+    </environment>
+
+    <environment exclude="Development">
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+        <script src="~/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+    </environment>
+   
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-
-
-
 
     @await RenderSectionAsync("Scripts", required: false)
     @RenderSection("tarun", required: false)

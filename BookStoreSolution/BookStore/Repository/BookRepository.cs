@@ -26,8 +26,22 @@ namespace BookStore.Repository
                 Title = model.Title,
                 LanguageId=model.LanguageId,
                 TotalPages = model.TotalPages.HasValue?model.TotalPages.Value:0,
-                UpdatedOn = DateTime.UtcNow
+                UpdatedOn = DateTime.UtcNow,
+                CoverImageUrl=model.CoverImageUrl,
+                BookPdfUrl=model.BookPdfUrl
             };
+
+            newBook.bookGallery = new List<BookGallery>();
+
+            foreach (var file in model.Gallery)
+            {
+                newBook.bookGallery.Add(new BookGallery()
+                {
+                    Name = file.Name,
+                    URl = file.URl
+                }); 
+            }
+
             await _context.tbl_Books.AddAsync(newBook);
             await _context.SaveChangesAsync();
 
@@ -45,7 +59,8 @@ namespace BookStore.Repository
                       LanguageId = book.LanguageId,
                       Language = book.Language.Text,
                       Title = book.Title,
-                      TotalPages = book.TotalPages
+                      TotalPages = book.TotalPages,
+                      CoverImageUrl=book.CoverImageUrl
                   }).ToListAsync();
             //var books = new List<BookModel>();
             //var allbooks = await _context.tbl_Books.ToListAsync();
@@ -81,7 +96,15 @@ namespace BookStore.Repository
                     LanguageId = book.LanguageId,
                     Language=book.Language.Text,
                     Title = book.Title,
-                    TotalPages = book.TotalPages
+                    TotalPages = book.TotalPages,
+                    CoverImageUrl = book.CoverImageUrl,
+                    Gallery=book.bookGallery.Select(g=>new GalleryModel()
+                    {
+                        Id=g.Id,
+                        Name=g.Name,
+                        URl=g.URl
+                    }).ToList(),
+                    BookPdfUrl=book.BookPdfUrl
                 }).FirstOrDefaultAsync();
 
             //if(book!=null)

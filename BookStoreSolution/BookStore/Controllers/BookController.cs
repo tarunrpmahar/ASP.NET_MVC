@@ -1,9 +1,12 @@
 ﻿using BookStore.Models;
 using BookStore.Repository;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -13,10 +16,12 @@ namespace BookStore.Controllers
     {
         private readonly BookRepository _bookRepository = null;
         private readonly LanguageRepository _languageRepository = null;
-        public BookController(BookRepository bookRepository, LanguageRepository languageRepository)
+        private readonly IWebHostEnvironment _webHostEnvironment = null;
+        public BookController(BookRepository bookRepository, LanguageRepository languageRepository, IWebHostEnvironment webHostEnvironment)
         {
             _bookRepository = bookRepository;
             _languageRepository = languageRepository;
+            _webHostEnvironment = webHostEnvironment;
         }
         public async Task<ViewResult> GetAllBooks()
         {
@@ -35,10 +40,7 @@ namespace BookStore.Controllers
         {
             return _bookRepository.SearchBook(bookName, authorName);
         }
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
+
         public async Task<ViewResult> AddNewBook(bool isSuccess = false, int bookId = 0)
         {
             //by default english will be selected
@@ -47,7 +49,7 @@ namespace BookStore.Controllers
                 //Language = "2"
             };
 
-            ViewBag.Language =new SelectList(await _languageRepository.GetLanguages(), "Id", "Text");
+            ViewBag.Language = new SelectList(await _languageRepository.GetLanguages(), "Id", "Text");
 
             //var group1 = new SelectListGroup() { Name="Group 1"};
             //var group2= new SelectListGroup() { Name = "Group 2" };
@@ -82,6 +84,34 @@ namespace BookStore.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (bookModel.CoverPhoto != null)
+                {
+                    string folder = "books/cover/";
+                    bookModel.CoverImageUrl = await UploadFile(folder, bookModel.CoverPhoto);
+                }
+
+                if (bookModel.GalleryFiles != null)
+                {
+                    string folder = "books/gallery/";
+                    bookModel.Gallery = new List<GalleryModel>();
+
+                    foreach (var file in bookModel.GalleryFiles)
+                    {
+                        var gallery = new GalleryModel()
+                        {
+                            Name = file.FileName,
+                            URl = await UploadFile(folder, file)
+                        };
+                        bookModel.Gallery.Add(gallery);
+                    }
+                }
+
+                if (bookModel.BookPdf != null)
+                {
+                    string folder = "books/pdf/";
+                    bookModel.BookPdfUrl = await UploadFile(folder, bookModel.BookPdf);
+                }
+
                 int id = await _bookRepository.AddNewBook(bookModel);
                 if (id > 0)
                 {
@@ -92,16 +122,27 @@ namespace BookStore.Controllers
             //if viewbag not used here than it will give error during post of the form that it is null
             ViewBag.Language = new SelectList(await _languageRepository.GetLanguages(), "Id", "Text");
             return View();
+
         }
 
-        private List<LanguageModel> GetLanguages()
+        private async Task<string> UploadFile(string folderPath, IFormFile file)
         {
-            return new List<LanguageModel>()
-            {
-                new LanguageModel(){ Id=1, Text="Hindi"},
-                new LanguageModel(){ Id=2, Text="English"},
-                new LanguageModel(){ Id=3, Text="Punjabi"}
-            };
+            folderPath += Guid.NewGuid().ToString() + "_" + file.FileName;
+
+            string serverFolder = Path.Combine(_webHostEnvironment.WebRootPath, folderPath);
+
+            await file.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
+            return "/" + folderPath;
         }
+
+        //private List<LanguageModel> GetLanguages()
+        //{
+        //    return new List<LanguageModel>()
+        //    {
+        //        new LanguageModel(){ Id=1, Text="Hindi"},
+        //        new LanguageModel(){ Id=2, Text="English"},
+        //        new LanguageModel(){ Id=3, Text="Punjabi"}
+        //    };
+        //}
     }
 }

@@ -19,6 +19,29 @@ namespace BookStore.Migrations
                 .HasAnnotation("ProductVersion", "6.0.0-preview.1.21102.2")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("BookStore.data.BookGallery", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("URl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("tbl_BookGallery");
+                });
+
             modelBuilder.Entity("BookStore.data.Books", b =>
                 {
                     b.Property<int>("Id")
@@ -29,7 +52,13 @@ namespace BookStore.Migrations
                     b.Property<string>("Author")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("BookPdfUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Category")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CoverImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("CreatedOn")
@@ -75,6 +104,17 @@ namespace BookStore.Migrations
                     b.ToTable("tbl_Lang");
                 });
 
+            modelBuilder.Entity("BookStore.data.BookGallery", b =>
+                {
+                    b.HasOne("BookStore.data.Books", "Book")
+                        .WithMany("bookGallery")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+                });
+
             modelBuilder.Entity("BookStore.data.Books", b =>
                 {
                     b.HasOne("BookStore.data.Language", "Language")
@@ -84,6 +124,11 @@ namespace BookStore.Migrations
                         .IsRequired();
 
                     b.Navigation("Language");
+                });
+
+            modelBuilder.Entity("BookStore.data.Books", b =>
+                {
+                    b.Navigation("bookGallery");
                 });
 
             modelBuilder.Entity("BookStore.data.Language", b =>
