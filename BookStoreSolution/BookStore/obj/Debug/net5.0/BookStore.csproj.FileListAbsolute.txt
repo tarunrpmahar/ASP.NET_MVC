@@ -510,3 +510,4 @@ C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\D
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Shared\_Header.cshtml.g.cs
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Shared\_footer.cshtml.g.cs
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Shared\_bookThumbnail.cshtml.g.cs
+C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Shared\Components\TopBooks\Default.cshtml.g.cs

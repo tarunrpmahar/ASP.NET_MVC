@@ -30,28 +30,36 @@
         @*<h3 class="h3">Top books</h3>*@
         <big>Top Books</big>    @*check this tag using inspect and big is overriden in BigTagHelper.cs*@
         @*<p big>Top book using attribute</p>*@
-        <div class="row">
-            <div class="col-md-4">
-                <partial name="_bookThumbnail" model="new BookModel()" />
+
+        @*For view components
+
+            one way  @await Component.InvokeAsync("TopBooks", new { count = 3 })
+            another way <vc:top-books></vc:top-books>*@
+
+        <vc:top-books count="5"></vc:top-books>
+
+        <!--<div class="row">
+            <div class="col-md-3">
+                <partial name="_bookThumbnail" model="new BookModel()" />-->
                 @*@Html.Partial("_bookThumbnail", new BookModel())*@
-            </div>
-            <div class="col-md-4">
-                <partial name="_bookThumbnail" model="new BookModel()" />
+            <!--</div>
+            <div class="col-md-3">
+                <partial name="_bookThumbnail" model="new BookModel()" />-->
                 @*@await Html.PartialAsync("_bookThumbnail", new BookModel())*@
-            </div>
-            <div class="col-md-4">
-                <partial name="_bookThumbnail" model="new BookModel()" />
+            <!--</div>
+            <div class="col-md-3">
+                <partial name="_bookThumbnail" model="new BookModel()" />-->
                 @*@{
-                    Html.RenderPartial("_bookThumbnail", new BookModel());
-                }*@
-            </div>
-            <div class="col-md-4">
-                <partial name="_bookThumbnail" model="new BookModel()" />
+                        Html.RenderPartial("_bookThumbnail", new BookModel());
+                    }*@
+            <!--</div>
+            <div class="col-md-3">
+                <partial name="_bookThumbnail" model="new BookModel()" />-->
                 @*@{
-                    await Html.RenderPartialAsync("_bookThumbnail", new BookModel());
-                }*@
-            </div>
-        </div>
+                        await Html.RenderPartialAsync("_bookThumbnail", new BookModel());
+                    }*@
+            <!--</div>
+        </div>-->
     </div>
 </div>
 
@@ -69,7 +77,6 @@
     <script>
         $(document).ready(function () {
             //alert("Index page is ready")
-
         })
     </script>
 }
