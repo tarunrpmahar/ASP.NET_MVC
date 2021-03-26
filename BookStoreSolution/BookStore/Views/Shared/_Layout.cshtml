@@ -74,8 +74,14 @@
     <footer class="border-top footer text-muted opp">
         <div class="container text-center">
             &copy; @DateTime.Now.Year - BookStore - <a asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+            @*<a href="mailto:tarunsmahar@gmail.com">tarunsmahar@gmail.com</a>*@
+            
+            @*CUSTOM TAG HELPER FOR EMAIL*@
+            <custom-email my-email="tarunsmahar@gmail.com"></custom-email>
+            
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
