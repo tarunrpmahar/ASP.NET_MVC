@@ -80,6 +80,13 @@ namespace BookStore
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                //conventional routing for about us page
+                //endpoints.MapControllerRoute(
+                //    name: "AboutUs",
+                //    pattern: "about-us",
+                //    defaults: new { controller = "Home", action = "AboutUs" });
+                    
             });
         }
     }
