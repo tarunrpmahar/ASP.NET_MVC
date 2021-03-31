@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BookStore.Repository
 {
-    public class BookRepository
+    public class BookRepository : IBookRepository
     {
         private readonly BookStoreContext _context = null;
 
@@ -24,11 +24,11 @@ namespace BookStore.Repository
                 CreatedOn = DateTime.UtcNow,
                 Description = model.Description,
                 Title = model.Title,
-                LanguageId=model.LanguageId,
-                TotalPages = model.TotalPages.HasValue?model.TotalPages.Value:0,
+                LanguageId = model.LanguageId,
+                TotalPages = model.TotalPages.HasValue ? model.TotalPages.Value : 0,
                 UpdatedOn = DateTime.UtcNow,
-                CoverImageUrl=model.CoverImageUrl,
-                BookPdfUrl=model.BookPdfUrl
+                CoverImageUrl = model.CoverImageUrl,
+                BookPdfUrl = model.BookPdfUrl
             };
 
             newBook.bookGallery = new List<BookGallery>();
@@ -39,7 +39,7 @@ namespace BookStore.Repository
                 {
                     Name = file.Name,
                     URl = file.URl
-                }); 
+                });
             }
 
             await _context.tbl_Books.AddAsync(newBook);
@@ -60,7 +60,7 @@ namespace BookStore.Repository
                       Language = book.Language.Text,
                       Title = book.Title,
                       TotalPages = book.TotalPages,
-                      CoverImageUrl=book.CoverImageUrl
+                      CoverImageUrl = book.CoverImageUrl
                   }).ToListAsync();
             //var books = new List<BookModel>();
             //var allbooks = await _context.tbl_Books.ToListAsync();
@@ -111,24 +111,24 @@ namespace BookStore.Repository
                     Description = book.Description,
                     Id = book.Id,
                     LanguageId = book.LanguageId,
-                    Language=book.Language.Text,
+                    Language = book.Language.Text,
                     Title = book.Title,
                     TotalPages = book.TotalPages,
                     CoverImageUrl = book.CoverImageUrl,
-                    Gallery=book.bookGallery.Select(g=>new GalleryModel()
+                    Gallery = book.bookGallery.Select(g => new GalleryModel()
                     {
-                        Id=g.Id,
-                        Name=g.Name,
-                        URl=g.URl
+                        Id = g.Id,
+                        Name = g.Name,
+                        URl = g.URl
                     }).ToList(),
-                    BookPdfUrl=book.BookPdfUrl
+                    BookPdfUrl = book.BookPdfUrl
                 }).FirstOrDefaultAsync();
 
             //if(book!=null)
             //{
             //    var bookDetails = new BookModel()
             //    {
-                    
+
             //    };
             //    return bookDetails;
             //}
@@ -154,5 +154,10 @@ namespace BookStore.Repository
         //        new BookModel(){ Id=5, Title= "Dotnet", Author= "tarunrpmahar", Description="This is description of the Dotnet entered by tarunrpmahar.", Category="Framework", Language="English", TotalPages=700},
         //    };
         //}
+
+        public string GetAppName()
+        {
+            return "Book Store Application";
+        }
     }
 }

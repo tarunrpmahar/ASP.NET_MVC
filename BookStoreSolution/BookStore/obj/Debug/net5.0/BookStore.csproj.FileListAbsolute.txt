@@ -245,8 +245,6 @@ C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\D
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
-C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -327,8 +325,6 @@ C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\D
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
-C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Core.dll
-C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Configuration.dll
@@ -511,3 +507,9 @@ C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\D
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Shared\_footer.cshtml.g.cs
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Shared\_bookThumbnail.cshtml.g.cs
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Shared\Components\TopBooks\Default.cshtml.g.cs
+C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Account\Signup.cshtml.g.cs

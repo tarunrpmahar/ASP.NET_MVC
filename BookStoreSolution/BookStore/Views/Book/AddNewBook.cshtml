@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "New Book";
 }
+@inject BookStore.Repository.ILanguageRepository _languageRepo
 
 @using BookStore.Enums
 @model BookModel
@@ -36,6 +37,10 @@
 
         <div class="form-group">
             <label asp-for="LanguageId"></label>
+
+            @*can be used with dependecy injection therefore we don't need to pass viewbag from controller 2 times in get and post method*@
+            @*<select asp-for="LanguageId" class="form-control" asp-items="(await _languageRepo.GetLanguages()).Select(x=>new SelectListItem() { Text=x.Text, Value=x.Id.ToString()})" required>*@
+
             <select asp-for="LanguageId" class="form-control" asp-items="ViewBag.Language" required>
                 <option value="">Please choose Book Language</option>
             </select>

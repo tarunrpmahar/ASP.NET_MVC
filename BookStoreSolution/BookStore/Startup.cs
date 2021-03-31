@@ -3,6 +3,7 @@ using BookStore.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,7 +31,12 @@ namespace BookStore
         {
             services.AddControllersWithViews();
             //Data Source=MSI\\SQLEXPRESS;Initial Catalog=BookStore;Trusted_Connection=True;
-            services.AddDbContext<BookStoreContext>(options => options.UseSqlServer("Server=MSI\\SQLEXPRESS;Database=Bookstore;Integrated Security=True;"));
+            services.AddDbContext<BookStoreContext>(
+                options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<BookStoreContext>();
 
             //will only work for development mode
 #if DEBUG         
@@ -43,8 +49,8 @@ namespace BookStore
             //});
 #endif
             //code for dependency
-            services.AddScoped<BookRepository, BookRepository>();
-            services.AddScoped<LanguageRepository, LanguageRepository>();
+            services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<ILanguageRepository, LanguageRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -72,6 +78,8 @@ namespace BookStore
             });
             */
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
