@@ -1,4 +1,5 @@
 using BookStore.data;
+using BookStore.Models;
 using BookStore.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,7 +36,13 @@ namespace BookStore
                 options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
 
-            services.AddIdentity<IdentityUser, IdentityRole>()
+            //by default table are created for IdentityUser
+            //services.AddIdentity<ApplicationUser, IdentityRole>()
+              //  .AddEntityFrameworkStores<BookStoreContext>();
+
+
+            //to add custom field to identity core table 
+            services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<BookStoreContext>();
 
             //will only work for development mode
@@ -51,6 +58,7 @@ namespace BookStore
             //code for dependency
             services.AddScoped<IBookRepository, BookRepository>();
             services.AddScoped<ILanguageRepository, LanguageRepository>();
+            services.AddScoped<IAccountRepository, AccountRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

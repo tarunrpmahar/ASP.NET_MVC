@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using BookStore.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BookStore.data
 {
-    public class BookStoreContext : IdentityDbContext   //inherits DBContext
+    public class BookStoreContext : IdentityDbContext<ApplicationUser> //by default for IdentityUser just inherit IdentityDbContext    //inherits DBContext
     {
         public BookStoreContext(DbContextOptions<BookStoreContext> options) : base(options)
         {
