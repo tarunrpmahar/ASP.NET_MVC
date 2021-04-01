@@ -513,3 +513,4 @@ C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\D
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Account\Signup.cshtml.g.cs
+C:\Users\tarun\Desktop\AspNetCoreMVC-BookStore\BookStoreSolution\BookStore\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
