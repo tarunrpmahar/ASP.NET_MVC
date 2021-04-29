@@ -5407,11 +5407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "T:\\Learning\\AspNetCoreMVC-BookStore\\BookStoreSolution\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "T:\\CELEBAL\\Learning\\GIT-Copy\\ASP.NET_MVC_Bookstore_application\\BookStoreSolution\\BookStore\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "T:\\Learning\\AspNetCoreMVC-BookStore\\BookStoreSolution\\BookStore\\BookStore.csproj",
+      "projectPath": "T:\\CELEBAL\\Learning\\GIT-Copy\\ASP.NET_MVC_Bookstore_application\\BookStoreSolution\\BookStore\\BookStore.csproj",
       "packagesPath": "C:\\Users\\tarun\\.nuget\\packages\\",
-      "outputPath": "T:\\Learning\\AspNetCoreMVC-BookStore\\BookStoreSolution\\BookStore\\obj\\",
+      "outputPath": "T:\\CELEBAL\\Learning\\GIT-Copy\\ASP.NET_MVC_Bookstore_application\\BookStoreSolution\\BookStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tarun\\AppData\\Roaming\\NuGet\\NuGet.Config",
